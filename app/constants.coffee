@@ -1,7 +1,7 @@
 constants =
 
-    company_name: 'HubSpot'
-    hosted_domain: 'tools.hubteam.com'
+    company_name: 'nuACM'
+    hosted_domain: 'nuacm.github.com'
 
     app_name: 'facewall'
     api_base: 'kumonga/v2'
