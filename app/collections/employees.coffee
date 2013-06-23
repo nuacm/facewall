@@ -4,7 +4,18 @@ Collection = require './collection'
 # However, adding ?shame to the request URL will show these as empty squares in the Facewall mesh.
 defaultGravatarImage = if location.search isnt '?shame' then '404' else 'blank'
 
-USER_JSON = """{"users":[{"firstName":"Adam","lastName":"Schwartz","email":"aschwartz@hubspot.com"},{"firstName":"Brad","lastName":"Osgood","email":"bosgood@hubspot.com"},{"firstName":"Chris","lastName":"Kelly","email":"ckelly@hubspot.com"},{"firstName":"David","lastName":"Cancel","email":"dcancel@hubspot.com"},{"firstName":"Jeremy","lastName":"Crane","email":"jcrane@hubspot.com"},{"firstName":"Mike","lastName":"Axiak","email":"maxiak@hubspot.com"},{"firstName":"Michael","lastName":"Mintz","email":"mmintz@hubspot.com"},{"firstName":"Rachel","lastName":"Decker","email":"rdecker@hubspot.com"},{"firstName":"Sam","lastName":"Siskend","email":"ssiskind@hubspot.com"},{"firstName":"Trevor","lastName":"Burnam","email":"tburnham@hubspot.com"},{"firstName":"Tim","lastName":"Finley","email":"tfinley@hubspot.com"},{"firstName":"Tom","lastName":"Monaghan","email":"tmonaghan@hubspot.com"},{"firstName":"Zack","lastName":"Bloom","email":"zbloom@hubspot.com"}]}"""
+USER_JSON = """{
+  "users": [
+    {
+      "id": 1,
+      "createdAt": 1372029728819,
+      "email": "hyfi@ccs.neu.edu",
+      "firstName": "Pranav",
+      "lastName": "Gandhi",
+      "role": "Vice President"
+    }
+  ]
+}"""
 
 class Employees extends Collection
 
