@@ -199,7 +199,7 @@ window.require.register("collections/employees", function(exports, require, modu
 
     defaultGravatarImage = location.search !== '?shame' ? '404' : 'blank';
 
-    USER_JSON = "{\n\"users\": [\n  {\n    \"id\": 1,\n    \"createdAt\": 1372029728819,\n    \"email\": \"hyfi@ccs.neu.edu\",\n    \"firstName\": \"Pranav\",\n    \"lastName\": \"Gandhi\",\n    \"role\": \"Vice President\"\n  }\n]\n}";
+    USER_JSON = "{\"users\": [{\"id\": 1,\"createdAt\": 1372029728819,\"email\": \"hyfi@ccs.neu.edu\",\"firstName\": \"Pranav\",\"lastName\": \"Gandhi\",\"role\": \"Vice President\"}]}";
 
     Employees = (function(_super) {
 

@@ -4,18 +4,7 @@ Collection = require './collection'
 # However, adding ?shame to the request URL will show these as empty squares in the Facewall mesh.
 defaultGravatarImage = if location.search isnt '?shame' then '404' else 'blank'
 
-USER_JSON = """{
-  "users": [
-    {
-      "id": 1,
-      "createdAt": 1372029728819,
-      "email": "hyfi@ccs.neu.edu",
-      "firstName": "Pranav",
-      "lastName": "Gandhi",
-      "role": "Vice President"
-    }
-  ]
-}"""
+USER_JSON = """{"users": [{"id": 1,"createdAt": 1372029728819,"email": "hyfi@ccs.neu.edu","firstName": "Pranav","lastName": "Gandhi","role": "Vice President"}]}"""
 
 class Employees extends Collection
 
